@@ -1,0 +1,31 @@
+[project]
+name = "datasci112_notebooks"
+version = "0.1"
+authors = [
+  {name="Dennis Sun", email="jonathan.taylor@stanford.edu"},
+  {name="Jonathan Taylor", email="dlsun@stanford.edu"},
+]
+description = "DATASCI 112 notebooks"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["data science", "notebooks"]
+license = "BSD-2-Clause"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "matplotlib",
+    "plotly",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "nbstripout",
+    "jupytext"
+]    
