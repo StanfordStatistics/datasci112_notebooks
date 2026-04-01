@@ -18,4 +18,3 @@ repos:
     hooks:
       - id: jupytext
         args: [--set-formats, "ipynb"]
-
